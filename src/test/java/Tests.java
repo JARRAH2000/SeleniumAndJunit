@@ -4,7 +4,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Tests {
     WebDriver webDriver;
-
     @Test
     public void firstTest() {
         webDriver = new ChromeDriver();
